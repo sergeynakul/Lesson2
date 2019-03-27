@@ -1,7 +1,7 @@
 my_hash = {}
 
 loop do
-  puts "Название тована"
+  puts "Название товара"
   title = gets.chomp
 
   break if title == "Стоп"

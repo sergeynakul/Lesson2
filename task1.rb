@@ -13,8 +13,6 @@ my_hash = {
   "December" => 31
 }
 
-my_hash.each do |key, value|
-  if value == 30
-    puts "#{key}"
-  end
+my_hash.each do |month, day|
+  puts "#{month}" if day == 30
 end
